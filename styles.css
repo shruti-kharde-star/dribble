@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height:100%;
+    width:100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+.nav {
+    height: 120px;
+    width: 100%;
+    /* background-color: darkseagreen; */
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left a {
+    color: black;
+    font-family:serif;
+    font-weight: 500;
+    font-size:21px;
+    text-decoration: none;
+}
+.mid {
+    height: 100%;
+    width: 20%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid h1 {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.profile h2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+
+/* .nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    }
+
+.left {
+    height:100% ;
+    width: 20%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .right {
+    height: 100%;
+    width: 80%;
+    /* background-color: lightyellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}  */
+ */
+
+
+
+
+/* .caption {
+    height:700px;
+    width: 700px;
+    background-color: darkcyan;
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: end; */
+}
+
+.box {
+    height:150px;
+    width: 150px;
+    background-color: lightgreen;
+} */
+
+
